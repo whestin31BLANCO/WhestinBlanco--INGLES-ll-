@@ -14,10 +14,9 @@ A public web page with six sections:
 | Section | What goes there |
 |---|---|
 | Home | Your name: WHESTIN TAMARA BLANCO LIZCANO  your role: I am a Systems Engineering student at UNIESPINAL University; I am in my fourth semester, and we will complete the technical program this term.your links:My institutional email is  WBLANCO32@ITFIP.EDU.COM|        
-| About | Two or three sentences about you  I am a hardworking, disciplined person with big dreams.
-I enjoy sports, work, and study because they help me improve every day, I pursue my dreams with effort, discipline, and great dedication.
-Sports strengthen my body, study strengthens my mind, and work strengthens my character, I believe that with effort and perseverance, anything is possible.
-I like to better myself every day and prove to myself that I can achieve my goals, I work for my present, study for my future, and train to become stronger.|
+
+| About | I am a hardworking, disciplined person with big dreams I enjoy playing sports, working, and studying because they help me become better every day|
+
 | Skills | Your technical and professional skills |
 | Resume | Your education and your experience |
 | Projects | The projects you have built |

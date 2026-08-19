@@ -15,7 +15,7 @@ A public web page with six sections:
 |---|---|
 | Home | Your name: WHESTIN TAMARA BLANCO LIZCANO  your role: I am a Systems Engineering student at UNIESPINAL University; I am in my fourth semester, and we will complete the technical program this term.your links:My institutional email is  WBLANCO32@ITFIP.EDU.COM|        
 | About | I am a hardworking, disciplined person with big dreams I enjoy playing sports, working, and studying because they help me become better every day I like staying active, working, and studying. I always try to make the most of my time, learn new things, and keep improving little by little|
-| Skills | Your technical and professional skills |
+| Skills | Basic knowledge of web programming and a strong interest in learning, developing projects, and growing in the technology sector. |
 | Resume | Your education and your experience |
 | Projects | The projects you have built |
 | Contact | How people can reach you |

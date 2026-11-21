@@ -1,165 +1,152 @@
-/* ============================================================
-   WEB PROFILE TEMPLATE - SCRIPT
-   UniEspinal · Técnico Profesional en Programación Web
 
-   THIS IS THE FILE YOU WILL WORK ON THE MOST.
+/* PORTAFOLIO BILINGÜE - WHESTIN BLANCO */
+/* ESPAÑOL E INGLÉS */
 
-   Below there are two dictionaries: ES and EN.
-   They have exactly the same keys, but different texts.
-
-   IMPORTANT: the English version is NOT a translation of the
-   Spanish version. A professional profile in English follows
-   different rules. Read NOTES.md before you write it.
-   ============================================================ */
-
-
-/* ------------------------------------------------------------
-   1. SPANISH TEXTS
-   ------------------------------------------------------------ */
 const ES = {
-  "nav.home":      "INICIO",
-  "nav.about":     "SOBRE MÍ",
-  "nav.skills":    "HABILIDADES",
-  "nav.resume":    "FORMACIÓN",
+  "nav.home": "INICIO",
+  "nav.about": "SOBRE MÍ",
+  "nav.skills": "HABILIDADES",
+  "nav.resume": "FORMACIÓN",
   "nav.portfolio": "PROYECTOS",
-  "nav.contact":   "CONTACTO",
+  "nav.contact": "CONTACTO",
 
-  "hero.role": "Desarrollador Web · Soporte Técnico",
+  "hero.role": "Estudiante de Ingeniería de Sistemas · Desarrolladora Web",
 
-  "about.title":          "Sobre Mí",
-  "about.text":           "[Escribe aquí dos o tres frases sobre ti: qué estudias, qué te interesa dentro del desarrollo web y qué estás buscando ahora.]",
-  "about.infoTitle":      "Información",
-  "about.labelLocation":  "Ubicación",
-  "about.valueLocation":  "[Ciudad], Colombia",
-  "about.labelEmail":     "Correo",
+  "about.title": "Sobre Mí",
+  "about.text": "Mi nombre es Whestin Tamara Blanco Lizcano. Soy estudiante de Ingeniería de Sistemas y tengo formación en Programación Web. Me interesa el desarrollo de software, la creación de páginas web y el uso de nuevas tecnologías para solucionar problemas. Mi objetivo es seguir fortaleciendo mis conocimientos y desarrollar proyectos innovadores.",
+
+  "about.infoTitle": "Información",
+  "about.labelLocation": "Ubicación",
+  "about.valueLocation": "Colombia",
+  "about.labelEmail": "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés ([tu nivel])",
-  "about.labelStatus":    "Disponibilidad",
-  "about.valueStatus":    "Abierto a prácticas",
+  "about.valueLanguages": "Español (nativo) · Inglés (básico)",
+  "about.labelStatus": "Disponibilidad",
+  "about.valueStatus": "Abierta a oportunidades de aprendizaje",
   "about.interestsTitle": "Intereses",
 
-  "interest.1": "CÓDIGO",
-  "interest.2": "SOPORTE",
-  "interest.3": "LECTURA",
-  "interest.4": "JUEGOS",
+  "interest.1": "PROGRAMACIÓN",
+  "interest.2": "TECNOLOGÍA",
+  "interest.3": "APRENDIZAJE",
+  "interest.4": "INNOVACIÓN",
 
-  "skills.title":        "Habilidades",
-  "skills.technical":    "Habilidades técnicas",
+  "skills.title": "Mis habilidades",
+  "skills.technical": "Habilidades técnicas",
   "skills.professional": "Habilidades profesionales",
-  "skill.support":       "Soporte al usuario",
-  "skill.teamwork":      "Trabajo en equipo",
-  "skill.problem":       "Resolución de problemas",
-  "skill.english":       "Inglés técnico",
+  "skill.support": "Soporte técnico",
+  "skill.teamwork": "Trabajo en equipo",
+  "skill.problem": "Resolución de problemas",
+  "skill.english": "Inglés técnico",
 
-  "resume.title":      "Formación y experiencia",
-  "resume.education":  "Formación",
-  "resume.experience": "Experiencia",
+  "resume.title": "Formación y experiencia",
+  "resume.education": "Formación académica",
+  "resume.experience": "Experiencia en proyectos",
 
-  "edu.1.title": "Técnico Profesional en Programación Web",
-  "edu.1.text":  "[Una o dos frases sobre lo que estás aprendiendo y qué sabes hacer ahora.]",
-  "edu.2.title": "[Curso o certificación]",
-  "edu.2.text":  "[Qué aprendiste y para qué te sirve.]",
+  "edu.1.title": "Técnica Profesional en Programación Web",
+  "edu.1.text": "Formación en desarrollo de páginas web, programación, bases de datos y herramientas tecnológicas como HTML, CSS, JavaScript y Python.",
 
-  "exp.1.title": "[Rol o tipo de proyecto]",
-  "exp.1.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
-  "exp.2.title": "[Rol o tipo de proyecto]",
-  "exp.2.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
+  "edu.2.title": "Ingeniería de Sistemas",
+  "edu.2.text": "Formación universitaria enfocada en programación, desarrollo de software, redes de computadores, bases de datos y soluciones tecnológicas.",
 
-  "portfolio.title": "Proyectos",
-  "project.1.title": "[Nombre del proyecto]",
-  "project.1.text":  "[Tecnologías usadas]",
-  "project.2.title": "[Nombre del proyecto]",
-  "project.2.text":  "[Tecnologías usadas]",
-  "project.3.title": "[Nombre del proyecto]",
-  "project.3.text":  "[Tecnologías usadas]",
+  "exp.1.title": "Desarrollo de plataforma educativa",
+  "exp.1.text": "Participación en el desarrollo de EduAlert, una plataforma web educativa creada con Python y Django para apoyar el seguimiento académico de los estudiantes.",
 
-  "contact.title":         "Contacto",
-  "contact.intro":         "[Una frase invitando a escribirte. Por ejemplo: ¿Tienes un proyecto o una vacante? Escríbeme.]",
-  "contact.emailLabel":    "Correo",
-  "contact.linkedinValue": "[Tu perfil profesional]",
+  "exp.2.title": "Desarrollo de aplicación móvil",
+  "exp.2.text": "Participación en el diseño de RunSport, una aplicación móvil desarrollada con Flutter que organiza planes de entrenamiento para corredores.",
 
-  "footer.note": "[Tu nombre] · Técnico Profesional en Programación Web · UniEspinal"
+  "portfolio.title": "Mis proyectos",
+
+  "project.1.title": "EduAlert",
+  "project.1.text": "Plataforma educativa desarrollada con Python, Django, HTML, CSS y bases de datos. Permite consultar información académica, identificar alertas preventivas y conocer estilos de aprendizaje.",
+
+  "project.2.title": "RunSport",
+  "project.2.text": "Aplicación móvil desarrollada con Flutter y Dart para organizar planes de entrenamiento de corredores principiantes e intermedios.",
+
+  "project.3.title": "Portafolio web bilingüe",
+  "project.3.text": "Página personal creada con HTML, CSS, JavaScript y GitHub Pages. Permite visualizar información profesional en español e inglés.",
+
+  "contact.title": "Contacto",
+  "contact.intro": "Gracias por visitar mi portafolio. Puedes conocer mis proyectos y mi trabajo a través de GitHub.",
+  "contact.emailLabel": "Correo",
+  "contact.linkedinValue": "Mi perfil profesional",
+
+  "footer.note": "Whestin Tamara Blanco Lizcano · Ingeniería de Sistemas · UniEspinal"
 };
 
 
-/* ------------------------------------------------------------
-   2. ENGLISH TEXTS
-
-   Before writing this section, remember:
-   - Use action verbs: built, configured, fixed, tested, supported.
-   - Do not include age, marital status or a home address.
-   - Do not translate word by word. Rewrite.
-   ------------------------------------------------------------ */
 const EN = {
-  "nav.home":      "HOME",
-  "nav.about":     "ABOUT",
-  "nav.skills":    "SKILLS",
-  "nav.resume":    "RESUME",
+  "nav.home": "HOME",
+  "nav.about": "ABOUT ME",
+  "nav.skills": "SKILLS",
+  "nav.resume": "EDUCATION",
   "nav.portfolio": "PROJECTS",
-  "nav.contact":   "CONTACT",
+  "nav.contact": "CONTACT",
 
-  "hero.role": "Web Developer · Technical Support",
+  "hero.role": "Systems Engineering Student · Web Developer",
 
-  "about.title":          "About Me",
-  "about.text":           "[Write two or three sentences about yourself: what you study, what interests you in web development, and what you are looking for now.]",
-  "about.infoTitle":      "Information",
-  "about.labelLocation":  "Location",
-  "about.valueLocation":  "[City], Colombia",
-  "about.labelEmail":     "Email",
+  "about.title": "About Me",
+  "about.text": "My name is Whestin Tamara Blanco Lizcano. I am a Systems Engineering student with a background in Web Programming. I enjoy software development, website creation, and using technology to solve problems. My goal is to improve my programming skills and develop innovative projects.",
+
+  "about.infoTitle": "Information",
+  "about.labelLocation": "Location",
+  "about.valueLocation": "Colombia",
+  "about.labelEmail": "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English ([your level])",
-  "about.labelStatus":    "Availability",
-  "about.valueStatus":    "Open to internships",
+  "about.valueLanguages": "Spanish (native) · English (basic)",
+  "about.labelStatus": "Availability",
+  "about.valueStatus": "Open to learning opportunities",
   "about.interestsTitle": "Interests",
 
-  "interest.1": "CODE",
-  "interest.2": "SUPPORT",
-  "interest.3": "READING",
-  "interest.4": "GAMING",
+  "interest.1": "PROGRAMMING",
+  "interest.2": "TECHNOLOGY",
+  "interest.3": "LEARNING",
+  "interest.4": "INNOVATION",
 
-  "skills.title":        "Skills",
-  "skills.technical":    "Technical skills",
-  "skills.professional": "Professional skills",
-  "skill.support":       "User support",
-  "skill.teamwork":      "Teamwork",
-  "skill.problem":       "Problem solving",
-  "skill.english":       "Technical English",
+  "skills.title": "My Skills",
+  "skills.technical": "Technical Skills",
+  "skills.professional": "Professional Skills",
+  "skill.support": "Technical Support",
+  "skill.teamwork": "Teamwork",
+  "skill.problem": "Problem Solving",
+  "skill.english": "Technical English",
 
-  "resume.title":      "Education and experience",
-  "resume.education":  "Education",
-  "resume.experience": "Experience",
+  "resume.title": "Education and Experience",
+  "resume.education": "Education",
+  "resume.experience": "Project Experience",
 
   "edu.1.title": "Professional Technician in Web Programming",
-  "edu.1.text":  "[One or two sentences about what you are learning and what you can do now.]",
-  "edu.2.title": "[Course or certificate]",
-  "edu.2.text":  "[What you learned and how you use it.]",
+  "edu.1.text": "Studied web development, programming, databases, and technologies such as HTML, CSS, JavaScript, and Python.",
 
-  "exp.1.title": "[Role or type of project]",
-  "exp.1.text":  "[What you did, which tools you used, and what the result was.]",
-  "exp.2.title": "[Role or type of project]",
-  "exp.2.text":  "[What you did, which tools you used, and what the result was.]",
+  "edu.2.title": "Systems Engineering",
+  "edu.2.text": "Currently studying programming, software development, computer networks, databases, and technology solutions.",
 
-  "portfolio.title": "Projects",
-  "project.1.title": "[Project name]",
-  "project.1.text":  "[Technologies used]",
-  "project.2.title": "[Project name]",
-  "project.2.text":  "[Technologies used]",
-  "project.3.title": "[Project name]",
-  "project.3.text":  "[Technologies used]",
+  "exp.1.title": "Educational Web Platform Development",
+  "exp.1.text": "Contributed to EduAlert, an educational web platform built with Python and Django to support student academic progress.",
 
-  "contact.title":         "Contact",
-  "contact.intro":         "[One sentence inviting people to write to you. Example: Have a project or a vacancy? Send me a message.]",
-  "contact.emailLabel":    "Email",
-  "contact.linkedinValue": "[Your professional profile]",
+  "exp.2.title": "Mobile Application Development",
+  "exp.2.text": "Contributed to the design of RunSport, a mobile application built with Flutter to organize running training plans.",
 
-  "footer.note": "[Your name] · Professional Technician in Web Programming · UniEspinal"
+  "portfolio.title": "My Projects",
+
+  "project.1.title": "EduAlert",
+  "project.1.text": "An educational platform built with Python, Django, HTML, CSS, and databases. It provides academic information, early warnings, and learning style information.",
+
+  "project.2.title": "RunSport",
+  "project.2.text": "A mobile application developed with Flutter and Dart to organize training plans for beginner and intermediate runners.",
+
+  "project.3.title": "Bilingual Web Portfolio",
+  "project.3.text": "A personal website built with HTML, CSS, JavaScript, and GitHub Pages. It presents professional information in Spanish and English.",
+
+  "contact.title": "Contact",
+  "contact.intro": "Thank you for visiting my portfolio. You can explore my projects and work on GitHub.",
+  "contact.emailLabel": "Email",
+  "contact.linkedinValue": "My Professional Profile",
+
+  "footer.note": "Whestin Tamara Blanco Lizcano · Systems Engineering · UniEspinal"
 };
 
 
-/* ============================================================
-   3. LANGUAGE SWITCHER
-   You do not need to change the code below.
-   ============================================================ */
+/* SISTEMA DE CAMBIO DE IDIOMA */
 
 const DICCIONARIOS = { es: ES, en: EN };
 let idiomaActual = "es";
@@ -170,6 +157,7 @@ function aplicarIdioma(idioma) {
 
   document.querySelectorAll("[data-i18n]").forEach(elemento => {
     const clave = elemento.getAttribute("data-i18n");
+
     if (textos[clave] !== undefined) {
       elemento.textContent = textos[clave];
     } else {
@@ -180,14 +168,25 @@ function aplicarIdioma(idioma) {
   document.documentElement.lang = idioma;
 
   const boton = document.getElementById("btn-idioma");
+
   if (boton) {
     const otro = idioma === "es" ? "en" : "es";
+
     boton.innerHTML =
-      '<span class="idioma-activo">'   + idioma.toUpperCase() + '</span>' +
+      '<span class="idioma-activo">' +
+      idioma.toUpperCase() +
+      '</span>' +
       '<span class="idioma-sep">/</span>' +
-      '<span class="idioma-inactivo">' + otro.toUpperCase()   + '</span>';
-    boton.setAttribute("aria-label",
-      idioma === "es" ? "Switch to English" : "Cambiar a español");
+      '<span class="idioma-inactivo">' +
+      otro.toUpperCase() +
+      '</span>';
+
+    boton.setAttribute(
+      "aria-label",
+      idioma === "es"
+        ? "Switch to English"
+        : "Cambiar a español"
+    );
   }
 
   idiomaActual = idioma;
@@ -198,31 +197,26 @@ function cambiarIdioma() {
 }
 
 
-/* ============================================================
-   4. RESPONSIVE MENU
-   ============================================================ */
+/* MENÚ RESPONSIVE */
 
 let menuVisible = false;
 
 function mostrarOcultarMenu() {
   const nav = document.getElementById("nav");
+  if (!nav) return;
+
   menuVisible = !menuVisible;
   nav.className = menuVisible ? "responsive" : "";
 }
 
 function cerrarMenu() {
-  document.getElementById("nav").className = "";
+  const nav = document.getElementById("nav");
+  if (nav) nav.className = "";
   menuVisible = false;
 }
 
 
-/* ============================================================
-   5. SKILL BARS
-
-   The width comes from the data-percent attribute in index.html.
-   You can add or remove skills freely: this code does not depend
-   on how many there are.
-   ============================================================ */
+/* ANIMACIÓN DE HABILIDADES */
 
 function animarHabilidades() {
   const barras = document.querySelectorAll(".progreso");
@@ -230,6 +224,7 @@ function animarHabilidades() {
   const mostrar = barra => {
     const porcentaje = barra.getAttribute("data-percent") || "0";
     barra.style.width = porcentaje + "%";
+
     const etiqueta = barra.querySelector("span");
     if (etiqueta) etiqueta.textContent = porcentaje + "%";
   };
@@ -252,9 +247,7 @@ function animarHabilidades() {
 }
 
 
-/* ============================================================
-   6. START
-   ============================================================ */
+/* INICIAR PÁGINA */
 
 document.addEventListener("DOMContentLoaded", () => {
   aplicarIdioma("es");
